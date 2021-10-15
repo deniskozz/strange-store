@@ -25,14 +25,10 @@ a{
     margin: 0 auto;
 }
 
-
-
 header{
     background-color: #242127;
     max-height: 220px
 }
-
-
 
 .main-nav{
     display: flex;

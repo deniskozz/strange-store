@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reg.css">
     <title>Вход в личный кабинет</title>
 </head>
@@ -11,19 +12,19 @@
     <header>
         <div class="container">
             <div class="header__main-row">
-                <nav class="main-nav">
-                    <a href="index.html" class="main-links">Главная</a>
-                    <a href="#" class="main-links">Каталог</a>
-                    <a href="#" class="main-links">О нас</a>
-                    <a href="#reg.html" class="main-links">Личный кабинет</a>
-                </nav>
-                <a href="#"><img src="img/logo.svg" alt="" class="logo"></a>
-                <form action="">
-                    <div class="input-box">
-                        <input type="search" name="" id="">
-                        <button class="search"><i class="search-img"></i></button>
-                    </div>
-                </form>
+                <div class="main-nav-container">
+                    <nav class="main-nav">
+                        <a href="index.html" class="main-links">Главная</a>
+                        <a href="#" class="main-links">Каталог</a>
+                        <a href="#" class="main-links">О нас</a>
+                        <a href="reg.html" class="main-links">Личный кабинет</a>
+                    
+                        <a href="#"><img src="img/logo.svg" alt="" class="logo"></a>
+                        <form action="" class="search-input">
+                                <input type="search" name="" id="" class="search" placeholder="Поиск">
+                        </form>
+                    </nav>
+                </div>
             </div>
             <div class="divider"></div>
             <div class="header__nav-row">
@@ -41,6 +42,7 @@
     </header>
     <main>
         <div class="reg-form">
+            <div class="container">
                 <h2>Вход в личный кабинет</h2>
                 <form action="" class="sign-up__form">
                     <div class="name-input input-reg">
@@ -48,21 +50,33 @@
                         <input type="text" required>
                     </div>
                     <div class="email-input input-reg">
-                        <label for="email">Введите email</label>
+                        <label for="email">Email</label>
                         <input type="email" required>
                     </div>
-                    <div class="phone-input input-reg">
-                        <label for="phone">Введите телефон</label>
-                        <input type="text">
-                    </div>
                     <div class="password-input input-reg">
-                        <label for="password">Введите пароль</label>
-                        <input type="password">
+                        <label for="password">Пароль</label>
+                        <input type="password" required>
                     </div>
                     <button type="submit">Войти</button>
-                    <a href="#">Зарегестрироваться</a>
+                    <a href="#" class="reg-link">Зарегестрироваться</a>
                 </form>
             </div>
+        </div>
     </main>
+    <footer>
+        <div class="container">
+            <div class="left-part__footer footer-elem">
+                <a href="tel:+"><p>712-827-2189</p></a>
+                <p>West Doyle</p>
+                <p>Jon Gottlieb</p>
+            </div>
+            <div class="middle-part__footer footer-elem"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque temporibus quae vero distinctio amet aliquid eum id eligendi impedit.</p></div>
+            <div class="right-part__footer footer-elem">
+                <a href="#" class="social-icons"><img src="https://static-sl.insales.ru/files/1/1309/14550301/original/twitter.svg" alt=""></a>
+                <a href="#" class="social-icons"><img src="https://static-sl.insales.ru/files/1/1307/14550299/original/vk.svg" alt=""></a>
+                <a href="#" class="social-icons"><img src="https://static-sl.insales.ru/files/1/1308/14550300/original/insta.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
