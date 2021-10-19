@@ -88,13 +88,13 @@ input.search{
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 1em;
-    
     margin-top: 2em;
 }
 
 .item{
     max-width: calc((100% / 4) - (3em / 4));
     width: 100%;    
+    margin-top: 2em;
 }
 
 .item:nth-child(4n) {
@@ -109,7 +109,9 @@ input.search{
 
 .item-name{
     font-size: 18px;
-    margin: 6px 0;
+    margin: 10px 0;
+    max-width: 260px;
+    text-align: justify;
 }
 
 .text-hero{
