@@ -203,3 +203,12 @@ footer .container{
 .right-part__footer a:last-child{
     margin-right: 0;
 }
+
+.info{
+    margin-top: 0.7em;
+    line-height: 1.5em;
+}
+
+.info a{
+    color: #000;
+}
