@@ -18,14 +18,16 @@
                     <div class="items">
 
                         <?php 
-                            $cards = get_info();
+                            $cards = get_info_new_items();
                             foreach ($cards as $card): ?>
 
                         <div class="item">
                             <a href="#">
-                                <img src="<?php echo $card["Image"]; ?>">
-                                <p class="item-name"><?php echo $card["Name"]; ?></p>
-                                <p class="item-price"><?php echo $card["Price"]; ?></p>
+                                <div class="item-block">
+                                    <img src="<?php echo $card["Image"]; ?>">
+                                    <p class="item-name"><?php echo $card["Name"]; ?></p>
+                                    <p class="item-price"><?php echo $card["Price"]; ?></p>
+                                </div>
                             </a>
                         </div>
                         <?php endforeach; ?>

@@ -93,8 +93,7 @@ input.search{
 
 .item{
     max-width: calc((100% / 4) - (3em / 4));
-    width: 100%;    
-    margin-top: 2em;
+    width: 100%; 
 }
 
 .item:nth-child(4n) {
@@ -109,9 +108,15 @@ input.search{
 
 .item-name{
     font-size: 18px;
-    margin: 10px 0;
+    margin: 10px 0 10px;
     max-width: 260px;
-    text-align: justify;
+}
+
+.item-block{
+    height: 26em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .text-hero{
@@ -161,7 +166,7 @@ h1, small{
 
 footer{
     background-color: #fff;
-    margin-top: 2em;
+    margin-top: 8em;
     padding: 2em 0;
     color: #000;
     font-size: 16px;

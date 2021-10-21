@@ -21,12 +21,12 @@
             <div class="header__main-row">
                 <div class="main-nav-container">
                     <nav class="main-nav">
-                        <a href="index.html" class="main-links">Главная</a>
+                        <a href="index.php" class="main-links">Главная</a>
                         <a href="#" class="main-links">Каталог</a>
                         <a href="#" class="main-links">О нас</a>
-                        <a href="reg.html" class="main-links">Личный кабинет</a>
+                        <a href="reg.php" class="main-links">Личный кабинет</a>
 
-                        <a href="#"><img src="img/logo.svg" alt="" class="logo"></a>
+                        <a href="index.php"><img src="img/logo.svg" alt="" class="logo"></a>
                         <form action="" class="search-input">
                             <input type="search" name="" id="" class="search" placeholder="Поиск">
                         </form>
@@ -38,7 +38,7 @@
                 <nav class="links">
                     <a href="#" class="links">Медицина</a>
                     <a href="#" class="links">Книги</a>
-                    <a href="#" class="links">Товары для жертвоприношений</a>
+                    <a href="#" class="links">Еда</a>
                     <a href="#" class="links">Останки НЛО</a>
                     <a href="#" class="links">Астрология</a>
                     <a href="#" class="links">Мифы и факты</a>
